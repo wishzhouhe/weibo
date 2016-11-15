@@ -12,6 +12,13 @@
 		EFE700DE1DDB023400EC2810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE700DC1DDB023400EC2810 /* LaunchScreen.storyboard */; };
 		EFE700E91DDB023600EC2810 /* SinaWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE700E81DDB023600EC2810 /* SinaWeiboTests.swift */; };
 		EFE700F41DDB023600EC2810 /* SinaWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE700F31DDB023600EC2810 /* SinaWeiboUITests.swift */; };
+		EFE7010C1DDB097A00EC2810 /* WBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7010B1DDB097A00EC2810 /* WBMainViewController.swift */; };
+		EFE7010E1DDB0A0100EC2810 /* WBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7010D1DDB0A0100EC2810 /* WBNavigationController.swift */; };
+		EFE701101DDB0A4000EC2810 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7010F1DDB0A4000EC2810 /* WBBaseViewController.swift */; };
+		EFE701121DDB0ABA00EC2810 /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE701111DDB0ABA00EC2810 /* WBHomeViewController.swift */; };
+		EFE701141DDB0ACF00EC2810 /* WBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE701131DDB0ACF00EC2810 /* WBMessageViewController.swift */; };
+		EFE701161DDB0AE000EC2810 /* WBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE701151DDB0AE000EC2810 /* WBProfileViewController.swift */; };
+		EFE701181DDB0AEF00EC2810 /* WBDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE701171DDB0AEF00EC2810 /* WBDiscoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,13 @@
 		EFE700EF1DDB023600EC2810 /* SinaWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE700F31DDB023600EC2810 /* SinaWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWeiboUITests.swift; sourceTree = "<group>"; };
 		EFE700F51DDB023600EC2810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE7010B1DDB097A00EC2810 /* WBMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBMainViewController.swift; sourceTree = "<group>"; };
+		EFE7010D1DDB0A0100EC2810 /* WBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBNavigationController.swift; sourceTree = "<group>"; };
+		EFE7010F1DDB0A4000EC2810 /* WBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
+		EFE701111DDB0ABA00EC2810 /* WBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBHomeViewController.swift; sourceTree = "<group>"; };
+		EFE701131DDB0ACF00EC2810 /* WBMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBMessageViewController.swift; sourceTree = "<group>"; };
+		EFE701151DDB0AE000EC2810 /* WBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBProfileViewController.swift; sourceTree = "<group>"; };
+		EFE701171DDB0AEF00EC2810 /* WBDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDiscoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +107,7 @@
 		EFE700D21DDB023300EC2810 /* SinaWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				EFE701011DDB08C500EC2810 /* Classes */,
 				EFE700D31DDB023300EC2810 /* AppDelegate.swift */,
 				EFE700DA1DDB023400EC2810 /* Assets.xcassets */,
 				EFE700DC1DDB023400EC2810 /* LaunchScreen.storyboard */,
@@ -117,6 +132,92 @@
 				EFE700F51DDB023600EC2810 /* Info.plist */,
 			);
 			path = SinaWeiboUITests;
+			sourceTree = "<group>";
+		};
+		EFE701011DDB08C500EC2810 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFE701041DDB08C500EC2810 /* View(视图和控制器) */,
+				EFE701021DDB08C500EC2810 /* Model */,
+				EFE701031DDB08C500EC2810 /* Tools */,
+				EFE7010A1DDB08C500EC2810 /* VIewModel(视图模型) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EFE701021DDB08C500EC2810 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFE701031DDB08C500EC2810 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EFE701041DDB08C500EC2810 /* View(视图和控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				EFE701071DDB08C500EC2810 /* Main */,
+				EFE701061DDB08C500EC2810 /* Home */,
+				EFE701081DDB08C500EC2810 /* Message */,
+				EFE701091DDB08C500EC2810 /* Profile */,
+				EFE701051DDB08C500EC2810 /* Discover */,
+			);
+			path = "View(视图和控制器)";
+			sourceTree = "<group>";
+		};
+		EFE701051DDB08C500EC2810 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				EFE701171DDB0AEF00EC2810 /* WBDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		EFE701061DDB08C500EC2810 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EFE701111DDB0ABA00EC2810 /* WBHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EFE701071DDB08C500EC2810 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EFE7010B1DDB097A00EC2810 /* WBMainViewController.swift */,
+				EFE7010D1DDB0A0100EC2810 /* WBNavigationController.swift */,
+				EFE7010F1DDB0A4000EC2810 /* WBBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EFE701081DDB08C500EC2810 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				EFE701131DDB0ACF00EC2810 /* WBMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		EFE701091DDB08C500EC2810 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EFE701151DDB0AE000EC2810 /* WBProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EFE7010A1DDB08C500EC2810 /* VIewModel(视图模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "VIewModel(视图模型)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE701181DDB0AEF00EC2810 /* WBDiscoverViewController.swift in Sources */,
+				EFE701101DDB0A4000EC2810 /* WBBaseViewController.swift in Sources */,
+				EFE7010C1DDB097A00EC2810 /* WBMainViewController.swift in Sources */,
+				EFE701121DDB0ABA00EC2810 /* WBHomeViewController.swift in Sources */,
 				EFE700D41DDB023300EC2810 /* AppDelegate.swift in Sources */,
+				EFE701161DDB0AE000EC2810 /* WBProfileViewController.swift in Sources */,
+				EFE7010E1DDB0A0100EC2810 /* WBNavigationController.swift in Sources */,
+				EFE701141DDB0ACF00EC2810 /* WBMessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +613,7 @@
 				EFE700FA1DDB023600EC2810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE700FB1DDB023600EC2810 /* Build configuration list for PBXNativeTarget "SinaWeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +622,7 @@
 				EFE700FD1DDB023600EC2810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE700FE1DDB023600EC2810 /* Build configuration list for PBXNativeTarget "SinaWeiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +631,7 @@
 				EFE701001DDB023600EC2810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
