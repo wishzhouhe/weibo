@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFE700D41DDB023300EC2810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE700D31DDB023300EC2810 /* AppDelegate.swift */; };
+		EFE700D61DDB023300EC2810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE700D51DDB023300EC2810 /* ViewController.swift */; };
+		EFE700D91DDB023400EC2810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE700D71DDB023400EC2810 /* Main.storyboard */; };
+		EFE700DB1DDB023400EC2810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE700DA1DDB023400EC2810 /* Assets.xcassets */; };
+		EFE700DE1DDB023400EC2810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE700DC1DDB023400EC2810 /* LaunchScreen.storyboard */; };
+		EFE700E91DDB023600EC2810 /* SinaWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE700E81DDB023600EC2810 /* SinaWeiboTests.swift */; };
+		EFE700F41DDB023600EC2810 /* SinaWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE700F31DDB023600EC2810 /* SinaWeiboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE700E51DDB023500EC2810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE700C81DDB023200EC2810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE700CF1DDB023200EC2810;
+			remoteInfo = SinaWeibo;
+		};
+		EFE700F01DDB023600EC2810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE700C81DDB023200EC2810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE700CF1DDB023200EC2810;
+			remoteInfo = SinaWeibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFE700D01DDB023300EC2810 /* SinaWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE700D31DDB023300EC2810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFE700D51DDB023300EC2810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFE700D81DDB023400EC2810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE700DA1DDB023400EC2810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE700DD1DDB023400EC2810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFE700DF1DDB023400EC2810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE700E41DDB023500EC2810 /* SinaWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE700E81DDB023600EC2810 /* SinaWeiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWeiboTests.swift; sourceTree = "<group>"; };
+		EFE700EA1DDB023600EC2810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE700EF1DDB023600EC2810 /* SinaWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE700F31DDB023600EC2810 /* SinaWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWeiboUITests.swift; sourceTree = "<group>"; };
+		EFE700F51DDB023600EC2810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE700CD1DDB023200EC2810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE700E11DDB023500EC2810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE700EC1DDB023600EC2810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE700C71DDB023100EC2810 = {
+			isa = PBXGroup;
+			children = (
+				EFE700D21DDB023300EC2810 /* SinaWeibo */,
+				EFE700E71DDB023600EC2810 /* SinaWeiboTests */,
+				EFE700F21DDB023600EC2810 /* SinaWeiboUITests */,
+				EFE700D11DDB023300EC2810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE700D11DDB023300EC2810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE700D01DDB023300EC2810 /* SinaWeibo.app */,
+				EFE700E41DDB023500EC2810 /* SinaWeiboTests.xctest */,
+				EFE700EF1DDB023600EC2810 /* SinaWeiboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE700D21DDB023300EC2810 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				EFE700D31DDB023300EC2810 /* AppDelegate.swift */,
+				EFE700D51DDB023300EC2810 /* ViewController.swift */,
+				EFE700D71DDB023400EC2810 /* Main.storyboard */,
+				EFE700DA1DDB023400EC2810 /* Assets.xcassets */,
+				EFE700DC1DDB023400EC2810 /* LaunchScreen.storyboard */,
+				EFE700DF1DDB023400EC2810 /* Info.plist */,
+			);
+			path = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		EFE700E71DDB023600EC2810 /* SinaWeiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE700E81DDB023600EC2810 /* SinaWeiboTests.swift */,
+				EFE700EA1DDB023600EC2810 /* Info.plist */,
+			);
+			path = SinaWeiboTests;
+			sourceTree = "<group>";
+		};
+		EFE700F21DDB023600EC2810 /* SinaWeiboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE700F31DDB023600EC2810 /* SinaWeiboUITests.swift */,
+				EFE700F51DDB023600EC2810 /* Info.plist */,
+			);
+			path = SinaWeiboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE700CF1DDB023200EC2810 /* SinaWeibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE700F81DDB023600EC2810 /* Build configuration list for PBXNativeTarget "SinaWeibo" */;
+			buildPhases = (
+				EFE700CC1DDB023200EC2810 /* Sources */,
+				EFE700CD1DDB023200EC2810 /* Frameworks */,
+				EFE700CE1DDB023200EC2810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaWeibo;
+			productName = SinaWeibo;
+			productReference = EFE700D01DDB023300EC2810 /* SinaWeibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE700E31DDB023500EC2810 /* SinaWeiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE700FB1DDB023600EC2810 /* Build configuration list for PBXNativeTarget "SinaWeiboTests" */;
+			buildPhases = (
+				EFE700E01DDB023500EC2810 /* Sources */,
+				EFE700E11DDB023500EC2810 /* Frameworks */,
+				EFE700E21DDB023500EC2810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE700E61DDB023500EC2810 /* PBXTargetDependency */,
+			);
+			name = SinaWeiboTests;
+			productName = SinaWeiboTests;
+			productReference = EFE700E41DDB023500EC2810 /* SinaWeiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFE700EE1DDB023600EC2810 /* SinaWeiboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE700FE1DDB023600EC2810 /* Build configuration list for PBXNativeTarget "SinaWeiboUITests" */;
+			buildPhases = (
+				EFE700EB1DDB023600EC2810 /* Sources */,
+				EFE700EC1DDB023600EC2810 /* Frameworks */,
+				EFE700ED1DDB023600EC2810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE700F11DDB023600EC2810 /* PBXTargetDependency */,
+			);
+			name = SinaWeiboUITests;
+			productName = SinaWeiboUITests;
+			productReference = EFE700EF1DDB023600EC2810 /* SinaWeiboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE700C81DDB023200EC2810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = myzj2004;
+				TargetAttributes = {
+					EFE700CF1DDB023200EC2810 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+					};
+					EFE700E31DDB023500EC2810 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFE700CF1DDB023200EC2810;
+					};
+					EFE700EE1DDB023600EC2810 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFE700CF1DDB023200EC2810;
+					};
+				};
+			};
+			buildConfigurationList = EFE700CB1DDB023200EC2810 /* Build configuration list for PBXProject "SinaWeibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE700C71DDB023100EC2810;
+			productRefGroup = EFE700D11DDB023300EC2810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE700CF1DDB023200EC2810 /* SinaWeibo */,
+				EFE700E31DDB023500EC2810 /* SinaWeiboTests */,
+				EFE700EE1DDB023600EC2810 /* SinaWeiboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE700CE1DDB023200EC2810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE700DE1DDB023400EC2810 /* LaunchScreen.storyboard in Resources */,
+				EFE700DB1DDB023400EC2810 /* Assets.xcassets in Resources */,
+				EFE700D91DDB023400EC2810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE700E21DDB023500EC2810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE700ED1DDB023600EC2810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE700CC1DDB023200EC2810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE700D61DDB023300EC2810 /* ViewController.swift in Sources */,
+				EFE700D41DDB023300EC2810 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE700E01DDB023500EC2810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE700E91DDB023600EC2810 /* SinaWeiboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE700EB1DDB023600EC2810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE700F41DDB023600EC2810 /* SinaWeiboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE700E61DDB023500EC2810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE700CF1DDB023200EC2810 /* SinaWeibo */;
+			targetProxy = EFE700E51DDB023500EC2810 /* PBXContainerItemProxy */;
+		};
+		EFE700F11DDB023600EC2810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE700CF1DDB023200EC2810 /* SinaWeibo */;
+			targetProxy = EFE700F01DDB023600EC2810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFE700D71DDB023400EC2810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE700D81DDB023400EC2810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFE700DC1DDB023400EC2810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE700DD1DDB023400EC2810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE700F61DDB023600EC2810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE700F71DDB023600EC2810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE700F91DDB023600EC2810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = SinaWeibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.SinaWeibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFE700FA1DDB023600EC2810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = SinaWeibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.SinaWeibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFE700FC1DDB023600EC2810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = SinaWeiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.SinaWeiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaWeibo.app/SinaWeibo";
+			};
+			name = Debug;
+		};
+		EFE700FD1DDB023600EC2810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = SinaWeiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.SinaWeiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaWeibo.app/SinaWeibo";
+			};
+			name = Release;
+		};
+		EFE700FF1DDB023600EC2810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = SinaWeiboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.SinaWeiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SinaWeibo;
+			};
+			name = Debug;
+		};
+		EFE701001DDB023600EC2810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = SinaWeiboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.SinaWeiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SinaWeibo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE700CB1DDB023200EC2810 /* Build configuration list for PBXProject "SinaWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE700F61DDB023600EC2810 /* Debug */,
+				EFE700F71DDB023600EC2810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE700F81DDB023600EC2810 /* Build configuration list for PBXNativeTarget "SinaWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE700F91DDB023600EC2810 /* Debug */,
+				EFE700FA1DDB023600EC2810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFE700FB1DDB023600EC2810 /* Build configuration list for PBXNativeTarget "SinaWeiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE700FC1DDB023600EC2810 /* Debug */,
+				EFE700FD1DDB023600EC2810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFE700FE1DDB023600EC2810 /* Build configuration list for PBXNativeTarget "SinaWeiboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE700FF1DDB023600EC2810 /* Debug */,
+				EFE701001DDB023600EC2810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE700C81DDB023200EC2810 /* Project object */;
+}
